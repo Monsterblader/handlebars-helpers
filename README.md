@@ -2063,18 +2063,18 @@ Lowercase all characters in the given string.
 
 ### [{{occurrences}}](lib/string.js#L221)
 
-Return the number of occurrances of `substring` within the given `string`.
+Return the number of occurrences of `substring` within the given `string`.
 
 **Params**
 
 * `str` **{String}**
 * `substring` **{String}**
-* `returns` **{Number}**: Number of occurrances
+* `returns` **{Number}**: Number of occurrences
 
 **Example**
 
 ```handlebars
-{{occurrances "foo bar foo bar baz" "foo"}}
+{{occurrences "foo bar foo bar baz" "foo"}}
 //=> 2
 ```
 
